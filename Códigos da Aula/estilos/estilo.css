@@ -1,20 +1,29 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: #e0f7fa;
-}
+body{background-color: rgb(253, 253, 253);}
+h1{color:#1e8d56; text-align: center; font-family: comic-sans, cursive;}
+h2{color:#78b4f8; text-align: center;}
+p{color:#e9b75a; font-family:Georgia, 'Times New Roman', Times, serif; text-align: center;}
+div{text-align: center;}
 
-h1 {
-    text-align: center;
-    color: #00796b;
+.TextoBorda {
+    border: 2px solid rgb(17, 176, 182);
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(17,176,182);
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 600px;
+    background-image: url("../imagens/fundoverde.png");
+    background-color: #61eed6;
 }
-
-h2 {
-    color: #004d40;
+a {
+    text-decoration: nome;
+    color: #e0eeee;
+    font-weight: bold;
+    transition: 0.3s;
 }
-
-img {
-    max-width: 100%;
-    height: auto;
+a:hover {
+    color: #77baf0;
+}
+a:active {
+    color: rgb(240, 158, 91);
 }
 
